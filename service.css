@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+.box-informate{
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.box-informate .bt-especialista{
+  font-size: 1.3em;
+}
+
+.container-bpc{
+  display: flex;
+  gap: 40px;
+  padding: 3%;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.box-informate h1{
+  text-align: center;
+  font-family: 'Barlow', bold;
+  color: #214142;
+  font-size: 2.7em;
+  padding-bottom: 25px;
+}
+
+.box-bpc{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #214142;
+  align-items: center;
+  color: white;
+  padding: 45px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container-bpc .box-bpc h2{
+  font-size: 1.6em;
+  width: 250px;
+}
+
+.box-bpc p{
+  font-weight: 100;
+  width: 350px;
+}
+
+.extra{
+  margin-top: 40px;
+  height: auto;
+  background-image: url('empresario-trabalhando-no-escritorio_23-2148377745.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
+
+.container-extra{
+  display: flex;
+  width: 100%;
+  padding: 6%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@media (min-width: 1024px){
+  .container-extra p{
+  width: 800px;
+  padding-top: 15px;
+  }
+
+  .container-extra{
+    padding: 1.5%;
+  }
+
+  .extra .container-extra h1{
+    font-size: 2.5em;
+  }
+}
+
+.extra .container-extra h1{
+  font-family: 'barlow';
+  color: white;
+  font-size: 2.1em;
+}
+
+.flex-mike{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.flex-mike img{
+  border-radius: 50%;
+  width: 350px;
+}
+
+@media (min-width: 1024px){
+  .flex-mike{
+    justify-content: space-between;
+  }
+
+  .flex-mike img{
+    width: 500px;
+  }
+}
+
+.sobre-mike{
+  margin-top: 40px;
+  padding: 5%;
+  width: 100%;
+}
+
+.mike-text button{
+  margin-top: 60px;
+}
+
+.mike-text h1{
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  color: #203F40;
+  font-family: 'Barlow', bold;
+  font-style: italic;
+}
+
+
+.mike-text h1 strong{
+  font-family: 'Barlow';
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+.mike-text p{
+  font-size: 1.5em;
+  width: 325px;
+}
+
+@media (min-width: 1024px){
+  .mike-text p{
+    width: 400px;
+  }
+}

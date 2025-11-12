@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+#sobre-scdec {
+    margin-top: 20px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    flex-wrap: wrap;
+    margin: 20px 25px;
+}
+
+/* Texto do Edimar */
+.flex-edimar p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Bloco de texto da SCDEC */
+.text-scdec {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 25px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-scdec h1 {
+  font-family: 'Barlow', bold;
+  font-size: 2.4em;
+  color: #214142;
+}
+
+.text-scdec ul li{
+  font-size: 0.9em;
+  padding-top: 50px;
+}
+
+@media (min-width: 1024px) {
+  
+}
+
+.flex ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Título "SCDEC" */
+#scdec {
+    color: #92521D;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+/* Responsivo para tablets e desktop */
+@media (min-width: 1024px) {
+  #sobre-scdec {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 170px;
+    justify-content: space-between;
+  }
+
+  .text-scdec {
+    align-items: flex-start;
+  }
+
+  .text-scdec p {
+    text-align: justify;
+  }
+}
+
+/* RESPONSIVIDADE para CELULARES */
+@media (max-width: 768px) {
+  #sobre-scdec {
+    flex-direction: column;
+    gap: 40px;
+    padding: 5%;
+  }
+
+  #edimar {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex-edimar p {
+    font-size: 14px;
+  }
+
+  .text-scdec {
+    font-size: 20px;
+    gap: 20px;
+  }
+
+  .text-scdec p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #scdec {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+#mulherfrontal{
+  width: 300px;
+}
+
+@media (min-width: 1024px) {
+  #mulherfrontal{
+    width: 400px;
+  }  
+}
