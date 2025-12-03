@@ -145,3 +145,332 @@ a{
     font-size: 20px;
   }
 }
+
+/*SERVICE*/
+
+#sobre-scdec {
+    margin-top: 20px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    flex-wrap: wrap;
+    margin: 20px 25px;
+}
+
+/* Texto do Edimar */
+.flex-edimar p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Bloco de texto da SCDEC */
+.text-scdec {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 25px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-scdec h1 {
+  font-family: 'Barlow', bold;
+  font-size: 2.4em;
+  color: #214142;
+}
+
+.text-scdec ul li{
+  font-size: 0.9em;
+  padding-top: 50px;
+}
+
+.flex ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Título "SCDEC" */
+#scdec {
+    color: #92521D;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+/* Responsivo para tablets e desktop */
+@media (min-width: 1024px) {
+  #sobre-scdec {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 170px;
+    justify-content: space-between;
+  }
+
+  .text-scdec {
+    align-items: flex-start;
+  }
+
+  .text-scdec p {
+    text-align: justify;
+  }
+}
+
+/* RESPONSIVIDADE para CELULARES */
+@media (max-width: 768px) {
+  #sobre-scdec {
+    flex-direction: column;
+    gap: 40px;
+    padding: 5%;
+  }
+
+  #edimar {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex-edimar p {
+    font-size: 14px;
+  }
+
+  .text-scdec {
+    font-size: 20px;
+    gap: 20px;
+  }
+
+  .text-scdec p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #scdec {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+#mulherfrontal{
+  width: 300px;
+}
+
+@media (min-width: 1024px) {
+  #mulherfrontal{
+    width: 400px;
+  }  
+}
+
+.box-informate{
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.box-informate .bt-especialista{
+  font-size: 1.3em;
+}
+
+.container-bpc{
+  display: flex;
+  gap: 40px;
+  padding: 3%;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.box-informate h1{
+  text-align: center;
+  font-family: 'Barlow', bold;
+  color: #214142;
+  font-size: 2.7em;
+  padding-bottom: 25px;
+}
+
+.box-bpc{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #214142;
+  align-items: center;
+  color: white;
+  padding: 45px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container-bpc .box-bpc h2{
+  font-size: 1.6em;
+  width: 250px;
+}
+
+.box-bpc p{ 
+  width: 350px;
+}
+
+.extra{
+  margin-top: 40px;
+  height: auto;
+  background-image: url('empresario-trabalhando-no-escritorio_23-2148377745.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
+
+.container-extra{
+  display: flex;
+  width: 100%;
+  padding: 6%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@media (min-width: 1024px){
+  .container-extra p{
+  width: 800px;
+  padding-top: 15px;
+  }
+
+  .container-extra{
+    padding: 1.5%;
+  }
+
+  .extra .container-extra h1{
+    font-size: 2.5em;
+  }
+}
+
+.extra .container-extra h1{
+  font-family: 'barlow';
+  color: white;
+  font-size: 2.1em;
+}
+
+.flex-mike{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.flex-mike img{
+  border-radius: 50%;
+  width: 350px;
+}
+
+@media (min-width: 1024px){
+  .flex-mike{
+    justify-content: space-between;
+  }
+
+  .flex-mike img{
+    width: 500px;
+  }
+}
+
+.sobre-mike{
+  margin-top: 40px;
+  padding: 5%;
+  width: 100%;
+}
+
+.mike-text button{
+  margin-top: 60px;
+}
+
+.mike-text h1{
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  color: #203F40;
+  font-family: 'Barlow', bold;
+  font-style: italic;
+}
+
+
+.mike-text h1 strong{
+  font-family: 'Barlow';
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+.mike-text p{
+  font-size: 1.5em;
+  width: 325px;
+}
+
+@media (min-width: 1024px){
+  .mike-text p{
+    width: 400px;
+  }
+}
+
+
+
+/*FOOTER*/
+footer{
+    margin: auto;
+    margin-top: 80px;
+    padding: 5% 5%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.139);
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer .logo-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer svg{
+  margin-top: 10px;
+  margin-right: 13px;
+}
+
+footer .logo-footer svg{
+  cursor: pointer;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  footer .line-footer{
+    flex-direction: row;
+  }
+}
+
+.container-footer h2{
+    text-align: center;
+}
+
+.container-footer p{
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+.container-footer iframe{
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+.container-footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+.container-footer p a:hover{
+    text-decoration: underline;
+}
