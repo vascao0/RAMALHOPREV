@@ -15,6 +15,26 @@ body {
   height: 100vh;
 }
 
+.btn-fixo{
+    position: fixed;
+    bottom: 20px;
+    padding-bottom: 10px;
+    right: 10px; 
+    font-size: 2.3em;
+    height: 76px;
+    width: 70px;
+    border-radius: 50%; 
+    padding: 10px;
+    margin-right: 10px;
+    background: linear-gradient(87deg, #36990F 6.82%, #174a04 102.99%);
+    box-shadow: 7px 9px 62.9px 0px rgba(43, 123, 12, 0.40);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+    transition: .2s;
+    animation: flutuar 0.6s ease-in-out infinite alternate;
+}
 
 html{
   scroll-behavior: smooth;
